@@ -24,7 +24,7 @@ A list of Xcode launch arguments, environment variables and command line options
 
 ### Allocations
 
-- `MallocScribble
+- `MallocScribble`
 - `MallocGuardEdges`
 - `MallocStackLogging`
 - `MallocStackLoggingNoCompact`
