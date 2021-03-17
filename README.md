@@ -29,6 +29,8 @@ A list of Xcode launch arguments, environment variables and command line options
 - `MallocStackLogging`
 - `MallocStackLoggingNoCompact`
 
+> Prior to Mac OS X 10.5 MallocStackLogging and MallocStackLoggingNoCompact could produce erroneous and misleading results in a multi-threaded program. [source](https://developer.apple.com/library/archive/technotes/tn2124/_index.html)
+
 ### I/O Buffering
 
 - `NSUnbufferedIO`: don't buffer logging to stdout (sterr is unbuffered by default)
@@ -85,4 +87,5 @@ A list of Xcode launch arguments, environment variables and command line options
 - https://nshipster.com/launch-arguments-and-environment-variables/
 - https://stackoverflow.com/a/51504440/4789448 for some `dyld` environment variables
 - https://developer.apple.com/library/archive/technotes/tn2239/_index.html
+- https://developer.apple.com/library/archive/technotes/tn2124/_index.html
 - `man dyld`, which can be read for those environment variables lacking descriptions
